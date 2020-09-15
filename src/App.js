@@ -1,9 +1,9 @@
 import React from 'react';
-
+import Main from './pages/Main';
 function App() {
   return (
     <div className="App">
-      <h1>Is everything working??</h1>
+      <Main />
     </div>
   );
 }
