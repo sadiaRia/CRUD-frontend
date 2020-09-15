@@ -1,14 +1,13 @@
-import React from 'react'
+import React from 'react';
+
 
 function Header() {
   return (
-    <div>
-      <nav className="navbar navbar-light bg-light">
-        <a className="navbar-brand" href="#">
+      <nav className="navbar navbar-light " style={{background:"#800080", color:"white"}}>
+        <a className="navbar-brand" href="#" style={{color:"white"}}>
           CRUD APPLICATION
   </a>
       </nav>
-    </div>
   )
 }
 
