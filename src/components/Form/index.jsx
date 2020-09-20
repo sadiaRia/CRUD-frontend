@@ -1,6 +1,12 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import {getForm} from '../../services/GetService';
 
-function Form({type}) {
+function Form({ type }) {
+  useEffect(() => {
+    getForm().then(res=>{
+console.log(res)
+    })
+  })
   return (
     <div>
       {type === 'create' && <h1>create new</h1>}
